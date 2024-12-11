@@ -42,7 +42,9 @@ python get_all_episodes_counted.py
 # Examples
 
 python main.py -a "Sword-Art-Online" -s "0,1:4,-3" -p "output" -m "collect"
+
 python main.py -a "Sword-Art-Online" -s "all" -p "output" -m "download" -t 3 -ss "Vidoza"
+
 python main.py -a "Sword-Art-Online" -p output -m "inspect"
 
 # Features and limitations
