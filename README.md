@@ -1,30 +1,41 @@
 # AniDL
 
 This is a python written video downloader for aniworld, running from command line or your IDE.
+
 Currently focused only on GERMAN-DUBBED episodes.
 
 # Usage
 
 python main.py -options 
+
 python main_master.py
+
 python get_all_episodes_counted.py
 
 # Options
 
   -h, --help            show this help message and exit
+  
   -a ANIME, --anime ANIME
                         Specify the anime name in format "Ani-Me-Na-Me"
+                        
   -s SEASONS, --seasons SEASONS
                         Season to download; seasons can be comma separated; a range of seasons can be passed using ":"; for movies, use "0"; for all seasons including movies, use "all"; to exclude a season (such as from "all" or a
                         range), start the number from "-"
+                        
   -e EPISODE, --episode EPISODE
                         Episode to download - currently not supported!
+                        
   -p PATH, --path PATH  Location where the downloaded episodes get stored
+  
   -t THREADS, --threads THREADS
                         Amount of threads of downloads
+                        
   -x PROXY, --proxy PROXY
                         enter an https proxys IP address (e.x 182.152.157.1:8080)
+                        
   -m MODE, --mode MODE  modes: download, collect - collect list of titles, inspect - inspect the download status
+  
   -ss STREAMING_SERVICE, --streaming_service STREAMING_SERVICE
                         name of preferred streaming service, type "all" if not care
 
@@ -63,6 +74,7 @@ Proxy is not tested.
 # Extras
 
 Use get_all_episodes_counted.py in order to get a list of the most numerous available GER-DUB animes
+
 Use main_master.py to automate the process over multiple animes
 
 # Credits
