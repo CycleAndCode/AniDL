@@ -40,16 +40,24 @@ Implemented streaming services:
 * VOE
 * Vidoza
 * Streamtape
+
 Modes:
 * collect - collects only the list of German titles
 * download - collect + download + inspect
 * inspect - inspects the download logs for missing episodes
+
 Episode title included in the file name.
+
 Auto-retry from the same or another streamer in case of an error.
+
 List all, list completed and list failed log files.
+
 Auto skip successfully processed episodes in case of a retry (no dummy overwrites, but overwrites titles which are not logged to successfully completed).
+
 Create convenient status summary for manual actions.
+
 Only GERMAN-DUBBED episodes are scheduled to download (to be more precise: episodes having a German title), although it can be easily extended to GER-SUB and ENG-SUB cause the language codes are already known.
+
 Proxy is not tested.
 
 # Extras
