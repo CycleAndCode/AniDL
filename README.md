@@ -69,7 +69,7 @@ Auto skip successfully processed episodes in case of a retry (no dummy overwrite
 
 Create convenient status summary for manual actions.
 
-Only GERMAN-DUBBED episodes are scheduled to download (to be more precise: episodes having a German title), although it can be easily extended to GER-SUB and ENG-SUB cause the language codes are already known.
+Only GERMAN-DUBBED episodes are scheduled to download (to be more precise: episodes having a German title), although it can be easily extended to GER-SUB and ENG-SUB cause the language codes are already known and only need to be parsed.
 
 Proxy is not tested.
 
