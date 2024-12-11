@@ -10,7 +10,7 @@ python main_master.py
 python get_all_episodes_counted.py
 
 # Options
-"""
+
   -h, --help            show this help message and exit
   -a ANIME, --anime ANIME
                         Specify the anime name in format "Ani-Me-Na-Me"
@@ -27,7 +27,7 @@ python get_all_episodes_counted.py
   -m MODE, --mode MODE  modes: download, collect - collect list of titles, inspect - inspect the download status
   -ss STREAMING_SERVICE, --streaming_service STREAMING_SERVICE
                         name of preferred streaming service, type "all" if not care
-"""
+
 # Examples
 
 python main.py -a "Sword-Art-Online" -s "0,1:4,-3" -p "output" -m "collect"
